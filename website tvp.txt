@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TVP Security</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+    header { background-color: #000; color: white; padding: 20px 0; text-align: center; }
+    nav ul { list-style: none; padding: 0; display: flex; justify-content: center; background-color: #111; margin: 0; }
+    nav ul li { margin: 0 15px; }
+    nav ul li a { color: white; text-decoration: none; padding: 14px 20px; display: inline-block; }
+    nav ul li a:hover { background-color: #444; }
+    .container { max-width: 1000px; margin: 20px auto; padding: 0 20px; }
+    h2 { color: #000080; }
+    footer { background-color: #000; color: white; text-align: center; padding: 15px 0; margin-top: 40px; }
+    form input, form textarea { width: 100%; padding: 10px; margin-bottom: 10px; }
+    form button { background-color: #000080; color: white; border: none; padding: 10px 20px; cursor: pointer; }
+    form button:hover { background-color: #0000cc; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TVP Security</h1>
+    <p>Vergunningsnummer: 8623</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#diensten">Diensten</a></li>
+      <li><a href="#over">Over ons</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <section id="diensten">
+      <h2>Onze Diensten</h2>
+      <ul>
+        <li><strong>Objectbeveiliging</strong> – Permanente of tijdelijke beveiliging van gebouwen en terreinen.</li>
+        <li><strong>Evenementenbeveiliging</strong> – Professionele beveiliging voor festivals, beurzen en feesten.</li>
+        <li><strong>Hondenbewaking</strong> – Extra afschrikking en veiligheid met professioneel opgeleide honden.</li>
+        <li><strong>Persoonsbeveiliging</strong> – Discrete en doeltreffende bescherming voor individuen.</li>
+        <li><strong>Camera-installaties</strong> – Levering en installatie van beveiligingscamera’s.</li>
+      </ul>
+    </section>
+    <section id="over">
+      <h2>Over TVP Security</h2>
+      <p>TVP Security staat garant voor veiligheid, betrouwbaarheid en vakmanschap. Met ervaren beveiligers, duidelijke communicatie en een flexibele instelling zorgen wij ervoor dat u zich veilig voelt – altijd en overal.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Heeft u vragen of wilt u een offerte? Neem vrijblijvend contact met ons op.</p>
+      <form>
+        <input type="text" placeholder="Naam" required>
+        <input type="email" placeholder="E-mailadres" required>
+        <textarea rows="5" placeholder="Uw bericht" required></textarea>
+        <button type="submit">Verstuur</button>
+      </form>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2025 TVP Security. Alle rechten voorbehouden.</p>
+  </footer>
+</body>
+</html>
